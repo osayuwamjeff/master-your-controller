@@ -1,0 +1,9 @@
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:49:1:Adafruit_ST77xx::Adafruit_ST77xx(uint16_t, uint16_t, int8_t, int8_t)	40	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:61:6:void Adafruit_ST77xx::displayInit(const uint8_t*)	24	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:91:6:void Adafruit_ST77xx::commonInit(const uint8_t*)	16	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:106:6:virtual void Adafruit_ST77xx::setAddrWindow(uint16_t, uint16_t, uint16_t, uint16_t)	32	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:128:6:virtual void Adafruit_ST77xx::setRotation(uint8_t)	24	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:166:6:void Adafruit_ST77xx::setColRowStart(int8_t, int8_t)	16	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:177:6:void Adafruit_ST77xx::enableDisplay(bool)	16	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:187:6:void Adafruit_ST77xx::enableTearing(bool)	16	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST77xx_mod.cpp:197:6:void Adafruit_ST77xx::enableSleep(bool)	16	static

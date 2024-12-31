@@ -1,0 +1,10 @@
+19:07:15 **** Build of configuration Debug for project Blink_with_cpp ****
+make -j8 all 
+arm-none-eabi-size  Blink_with_cpp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4688	     12	   1572	   6272	   1880	Blink_with_cpp.elf
+Finished building: default.size.stdout
+ 
+
+19:07:16 Build Finished. 0 errors, 0 warnings. (took 435ms)
+

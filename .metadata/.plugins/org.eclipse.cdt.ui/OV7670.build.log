@@ -1,0 +1,24 @@
+16:23:40 **** Incremental Build of configuration Debug for project OV7670 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/User/STM32CubeIDE/workspace_1.15.0/OV7670/OV7670_Lib/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/User/STM32CubeIDE/workspace_1.15.0/OV7670/OV7670_Lib/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-g++ -o "OV7670.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\User\STM32CubeIDE\workspace_1.15.0\OV7670\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="OV7670.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: OV7670.elf
+ 
+arm-none-eabi-size  OV7670.elf 
+arm-none-eabi-objdump -h -S OV7670.elf  > "OV7670.list"
+arm-none-eabi-objcopy  -O ihex OV7670.elf  "OV7670.hex"
+   text	   data	    bss	    dec	    hex	filename
+  14408	    112	   5568	  20088	   4e78	OV7670.elf
+arm-none-eabi-objcopy  -O binary OV7670.elf  "OV7670.bin"
+Finished building: default.size.stdout
+ 
+Finished building: OV7670.hex
+Finished building: OV7670.bin
+ 
+ 
+Finished building: OV7670.list
+ 
+
+16:23:42 Build Finished. 0 errors, 0 warnings. (took 2s.111ms)
+

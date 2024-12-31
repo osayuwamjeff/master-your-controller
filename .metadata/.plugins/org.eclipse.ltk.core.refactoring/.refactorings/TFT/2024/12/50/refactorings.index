@@ -1,0 +1,5 @@
+1733774734562	Rename resource 'ST7735'
+1733774910129	Rename resource 'ST7735_Lib'
+1733775449052	Rename resource 'Adafruit_ST7735_and_ST7789_Library_Mod'
+1733775466619	Rename resource 'Adafruit_ST77xx_Mod.h'
+1734099580294	Move 'glcdfont.c' to 'Src'

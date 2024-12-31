@@ -1,0 +1,10 @@
+19:07:15 **** Build of configuration Debug for project 24byj-48 ****
+make -j8 all 
+arm-none-eabi-size  24byj-48.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7148	     12	   1644	   8804	   2264	24byj-48.elf
+Finished building: default.size.stdout
+ 
+
+19:07:15 Build Finished. 0 errors, 0 warnings. (took 505ms)
+

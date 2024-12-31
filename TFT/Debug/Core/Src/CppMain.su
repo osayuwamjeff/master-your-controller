@@ -1,0 +1,23 @@
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_GFX_mod.h:145:8:void Adafruit_GFX::setCursor(int16_t, int16_t)	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_GFX_mod.h:158:8:void Adafruit_GFX::setTextColor(uint16_t)	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_GFX_mod.h:179:8:void Adafruit_GFX::setTextWrap(bool)	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_GFX_mod.h:206:11:int16_t Adafruit_GFX::width() const	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_GFX_mod.h:214:11:int16_t Adafruit_GFX::height() const	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_SPITFT_mod.h:76:3:Adafruit_SPITFT::~Adafruit_SPITFT()	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_ST7735_and_ST7789_Library_mod/Inc/Adafruit_ST77xx_mod.h:96:7:Adafruit_ST77xx::~Adafruit_ST77xx()	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_ST7735_and_ST7789_Library_mod/Inc/Adafruit_ST7735_mod.h:60:7:Adafruit_ST7735::~Adafruit_ST7735()	16	static
+../Core/Src/CppMain.cpp:15:6:void testlines(uint16_t)	48	static
+../Core/Src/CppMain.cpp:57:6:void testdrawtext(const char*, uint16_t)	16	static
+../Core/Src/CppMain.cpp:64:6:void testfastlines(uint16_t, uint16_t)	32	static
+../Core/Src/CppMain.cpp:74:6:void testdrawrects(uint16_t)	40	static
+../Core/Src/CppMain.cpp:81:6:void testfillrects(uint16_t, uint16_t)	40	static
+../Core/Src/CppMain.cpp:89:6:void testfillcircles(uint8_t, uint16_t)	32	static
+../Core/Src/CppMain.cpp:97:6:void testdrawcircles(uint8_t, uint16_t)	40	static
+../Core/Src/CppMain.cpp:105:6:void testtriangles()	64	static
+../Core/Src/CppMain.cpp:122:6:void testroundrects()	64	static
+../Core/Src/CppMain.cpp:144:6:void tftPrintTest()	8	static
+../Core/Src/CppMain.cpp:183:6:void mediabuttons()	24	static
+../Core/Src/CppMain.cpp:204:6:void CppMain()	16	static
+../Core/Src/CppMain.cpp:261:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../Core/Src/CppMain.cpp:261:1:cpp)	8	static
+../Core/Src/CppMain.cpp:261:1:cpp)	8	static

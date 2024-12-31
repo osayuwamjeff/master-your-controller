@@ -1,0 +1,2 @@
+../Core/Src/blink.cpp:9:6:void blink::on(GPIO_TypeDef*, uint16_t)	1
+../Core/Src/blink.cpp:13:6:void blink::off(GPIO_TypeDef*, uint16_t)	1

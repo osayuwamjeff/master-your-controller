@@ -1,0 +1,36 @@
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_SPITFT_mod.h:193:8:void Adafruit_SPITFT::SPI_CS_HIGH()	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_SPITFT_mod.h:203:8:void Adafruit_SPITFT::SPI_CS_LOW()	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_SPITFT_mod.h:210:8:void Adafruit_SPITFT::SPI_DC_HIGH()	16	static
+C:/Users/User/STM32CubeIDE/workspace_1.15.0/TFT/Adafruit_GFX_Library_mod/Inc/Adafruit_SPITFT_mod.h:217:8:void Adafruit_SPITFT::SPI_DC_LOW()	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:69:1:Adafruit_SPITFT::Adafruit_SPITFT(uint16_t, uint16_t, int8_t, int8_t)	24	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:93:6:virtual void Adafruit_SPITFT::startWrite()	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:104:6:virtual void Adafruit_SPITFT::endWrite()	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:116:6:virtual void Adafruit_SPITFT::writePixel(int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:133:6:void Adafruit_SPITFT::swapBytes(uint16_t*, uint32_t, uint16_t*)	32	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:166:6:void Adafruit_SPITFT::writePixels(uint16_t*, uint32_t, bool, bool)	24	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:201:6:void Adafruit_SPITFT::writeColor(uint16_t, uint32_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:238:6:virtual void Adafruit_SPITFT::writeFillRect(int16_t, int16_t, int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:290:13:virtual void Adafruit_SPITFT::writeFastHLine(int16_t, int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:326:13:virtual void Adafruit_SPITFT::writeFastVLine(int16_t, int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:370:13:void Adafruit_SPITFT::writeFillRectPreclipped(int16_t, int16_t, int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:394:6:virtual void Adafruit_SPITFT::drawPixel(int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:424:6:virtual void Adafruit_SPITFT::fillRect(int16_t, int16_t, int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:482:6:virtual void Adafruit_SPITFT::drawFastHLine(int16_t, int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:523:6:virtual void Adafruit_SPITFT::drawFastVLine(int16_t, int16_t, int16_t, uint16_t)	40	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:556:6:void Adafruit_SPITFT::pushColor(uint16_t)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:578:6:void Adafruit_SPITFT::drawRGBBitmap(int16_t, int16_t, uint16_t*, int16_t, int16_t)	56	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:623:6:virtual void Adafruit_SPITFT::invertDisplay(bool)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:639:10:uint16_t Adafruit_SPITFT::color565(uint8_t, uint8_t, uint8_t)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:650:6:void Adafruit_SPITFT::sendCommand(uint8_t, uint8_t*, uint8_t)	32	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:675:6:void Adafruit_SPITFT::sendCommand(uint8_t, const uint8_t*, uint8_t)	32	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:703:6:void Adafruit_SPITFT::sendCommand16(uint16_t, const uint8_t*, uint8_t)	32	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:737:9:uint8_t Adafruit_SPITFT::readcommand8(uint8_t, uint8_t)	24	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:756:10:uint16_t Adafruit_SPITFT::readcommand16(uint16_t)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:777:6:void Adafruit_SPITFT::spiWrite(uint8_t)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:789:6:void Adafruit_SPITFT::writeCommand(uint8_t)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:805:9:uint8_t Adafruit_SPITFT::spiRead()	24	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:818:6:void Adafruit_SPITFT::write16(uint16_t)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:830:6:void Adafruit_SPITFT::writeCommand16(uint16_t)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:844:10:uint16_t Adafruit_SPITFT::read16()	24	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:860:6:void Adafruit_SPITFT::SPI_WRITE16(uint16_t)	16	static
+../Adafruit_GFX_Library_mod/Src/Adafruit_SPITFT_mod.cpp:876:6:void Adafruit_SPITFT::SPI_WRITE32(uint32_t)	16	static

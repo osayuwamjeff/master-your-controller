@@ -1,0 +1,24 @@
+21:07:11 **** Incremental Build of configuration Debug for project SSD1306_SIM800 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/HP/STM32CubeIDE/workspace_1.12.1/SSD1306_SIM800/LIBRARY/OLED_Driver/Inc" -I"C:/Users/HP/STM32CubeIDE/workspace_1.12.1/SSD1306_SIM800/LIBRARY/SIM800/Inc" -I"D:/Tutorials_Software_Files/workspace_1.12.1/SSD1306_SIM800/Core/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SSD1306_SIM800.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Tutorials_Software_Files\workspace_1.12.1\SSD1306_SIM800\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SSD1306_SIM800.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: SSD1306_SIM800.elf has a LOAD segment with RWX permissions
+Finished building target: SSD1306_SIM800.elf
+ 
+arm-none-eabi-size  SSD1306_SIM800.elf 
+arm-none-eabi-objdump -h -S SSD1306_SIM800.elf  > "SSD1306_SIM800.list"
+arm-none-eabi-objcopy  -O ihex SSD1306_SIM800.elf  "SSD1306_SIM800.hex"
+   text	   data	    bss	    dec	    hex	filename
+  10552	     28	   2756	  13336	   3418	SSD1306_SIM800.elf
+arm-none-eabi-objcopy  -O binary SSD1306_SIM800.elf  "SSD1306_SIM800.bin"
+Finished building: default.size.stdout
+ 
+Finished building: SSD1306_SIM800.hex
+Finished building: SSD1306_SIM800.bin
+ 
+ 
+Finished building: SSD1306_SIM800.list
+ 
+
+21:07:13 Build Finished. 0 errors, 1 warnings. (took 2s.269ms)
+

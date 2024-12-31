@@ -1,0 +1,10 @@
+../OV7670_Lib/Src/OV7670.cpp:11:1:OV7670::OV7670(uint8_t, I2C_HandleTypeDef&)	24	static
+../OV7670_Lib/Src/OV7670.cpp:15:1:OV7670::~OV7670()	16	static
+../OV7670_Lib/Src/OV7670.cpp:23:15:OV7670_status OV7670::begin(OV7670_colorspace, OV7670_size, float, uint32_t)	24	static
+../OV7670_Lib/Src/OV7670.cpp:42:9:uint8_t OV7670::readRegister(uint8_t)	32	static
+../OV7670_Lib/Src/OV7670.cpp:49:6:void OV7670::writeRegister(uint8_t, uint8_t)	24	static
+../OV7670_Lib/Src/OV7670.cpp:54:15:OV7670_status OV7670::setSize(OV7670_size, OV7670_realloc)	32	static
+../OV7670_Lib/Src/OV7670.cpp:96:6:void OV7670::Y2RGB565()	16	static
+../OV7670_Lib/Src/OV7670.cpp:101:6:void OV7670::captureLine()	16	static
+../OV7670_Lib/Src/OV7670.cpp:113:9:uint8_t OV7670_read_register(uint8_t)	32	static
+../OV7670_Lib/Src/OV7670.cpp:120:6:void OV7670_write_register(uint8_t, uint8_t)	24	static

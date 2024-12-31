@@ -1,0 +1,21 @@
+14:53:55 **** Build of configuration Debug for project font_ssd1306_files_are_here ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/fonts.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/fonts.d" -MT"Src/fonts.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/fonts.o"
+arm-none-eabi-gcc "../Src/ssd1306.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/ssd1306.d" -MT"Src/ssd1306.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/ssd1306.o"
+In file included from ../Src/fonts.c:19:
+../Inc/fonts.h:41:10: fatal error: stm32f1xx_hal.h: No such file or directory
+   41 | #include "stm32f1xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:31: Src/fonts.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Src/ssd1306.c:10:
+../Inc/ssd1306.h:16:10: fatal error: stm32f1xx_hal.h: No such file or directory
+   16 | #include "stm32f1xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:31: Src/ssd1306.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:53:56 Build Failed. 5 errors, 0 warnings. (took 494ms)
+

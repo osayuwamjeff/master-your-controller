@@ -1,0 +1,26 @@
+/*
+ * CppMain.cpp
+ *
+ *  Created on: Dec 27, 2024
+ *      Author: User
+ */
+
+#include "main.h"
+#include "Adafruit_GFX_mod.h"    // Core graphics library
+#include "Adafruit_ST7735_mod.h" // Hardware-specific library for ST7735
+#include "Adafruit_ST7789_mod.h" // Hardware-specific library for ST7789
+
+Adafruit_ST7735 tft = Adafruit_ST7735();
+
+
+void CppMain()
+{
+	// Setup code
+	tft.initR(INITR_BLACKTAB);
+	tft.fillScreen(ST77XX_BLACK);
+	while(1)
+	{
+		// loop
+	}
+}
+

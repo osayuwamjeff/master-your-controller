@@ -1,0 +1,4 @@
+The code used is a modification of the adafruit code. this code may/may not be the final
+code. The code will be subjected to review and optimization
+
+Jeffery

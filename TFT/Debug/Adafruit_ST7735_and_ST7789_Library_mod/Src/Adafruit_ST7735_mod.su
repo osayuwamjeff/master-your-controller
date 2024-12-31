@@ -1,0 +1,4 @@
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST7735_mod.cpp:21:1:Adafruit_ST7735::Adafruit_ST7735(int8_t, int8_t)	24	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST7735_mod.cpp:201:6:void Adafruit_ST7735::initB()	16	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST7735_mod.cpp:212:6:void Adafruit_ST7735::initR(uint8_t)	24	static
+../Adafruit_ST7735_and_ST7789_Library_mod/Src/Adafruit_ST7735_mod.cpp:268:6:virtual void Adafruit_ST7735::setRotation(uint8_t)	24	static

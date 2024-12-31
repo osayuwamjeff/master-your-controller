@@ -1,0 +1,10 @@
+13:09:21 **** Incremental Build of configuration Debug for project SIM800 ****
+make -j8 all 
+arm-none-eabi-size  SIM800.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9020	    100	   2996	  12116	   2f54	SIM800.elf
+Finished building: default.size.stdout
+ 
+
+13:09:21 Build Finished. 0 errors, 0 warnings. (took 321ms)
+

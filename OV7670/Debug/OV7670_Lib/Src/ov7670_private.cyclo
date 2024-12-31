@@ -1,0 +1,10 @@
+../OV7670_Lib/Src/ov7670_private.c:18:6:OV7670_write_list	2
+../OV7670_Lib/Src/ov7670_private.c:150:15:OV7670_begin	2
+../OV7670_Lib/Src/ov7670_private.c:186:7:OV7670_set_fps	9
+../OV7670_Lib/Src/ov7670_private.c:252:6:OV7670_frame_control	6
+../OV7670_Lib/Src/ov7670_private.c:305:6:OV7670_set_size	1
+../OV7670_Lib/Src/ov7670_private.c:336:6:OV7670_night	1
+../OV7670_Lib/Src/ov7670_private.c:357:6:OV7670_flip	3
+../OV7670_Lib/Src/ov7670_private.c:377:6:OV7670_test_pattern	3
+../OV7670_Lib/Src/ov7670_private.c:399:6:OV7670_Y2RGB565	2
+../OV7670_Lib/Src/ov7670_private.c:408:6:OV7670_captureLine	8

@@ -1,0 +1,10 @@
+../OV7670_Lib/Src/image_ops.c:21:6:OV7670_image_negative	2
+../OV7670_Lib/Src/image_ops.c:39:6:OV7670_image_threshold	8
+../OV7670_Lib/Src/image_ops.c:74:6:OV7670_image_posterize	9
+../OV7670_Lib/Src/image_ops.c:127:6:OV7670_image_mosaic	14
+../OV7670_Lib/Src/image_ops.c:297:13:OV7670_filter_row_prep	2
+../OV7670_Lib/Src/image_ops.c:320:13:OV7670_filter_row_copy	2
+../OV7670_Lib/Src/image_ops.c:336:23:OV7670_med9	4
+../OV7670_Lib/Src/image_ops.c:413:6:OV7670_image_median	6
+../OV7670_Lib/Src/image_ops.c:483:20:OV7670_edge9	5
+../OV7670_Lib/Src/image_ops.c:494:6:OV7670_image_edges	6
